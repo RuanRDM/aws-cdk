@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Static Website</title>
+    <!-- Adicione links para os arquivos CSS e JavaScript do Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* CSS personalizado para o rodapé */
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* CSS para o corpo da página */
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        /* Estilos para o conteúdo principal */
+        main {
+            padding-bottom: 60px; /* A altura do rodapé (ajuste conforme necessário). */
+        }
+    </style>
+</head>
+<body>
+    <header class="container-fluid bg-dark text-white py-4">
+        <h1 class="text-center">Website Estático</h1>
+    </header>
+    <main class="container mt-4">
+        <section>
+            <h2>Bem-vindo</h2>
+            <p>Este é um website estático desenvolvido usando o AWS CDK para a disciplina de LPE do curso de Ciência da Computação.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Static Website - Ruan Delatorre</p>
+    </footer>
+</body>
+</html>
